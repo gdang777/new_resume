@@ -90,7 +90,7 @@ section:last-child {
   /* justify-content: space-between; */
   display: flex;
   flex: 1;
-  max-width: 200;
+  /* max-width: 200; */
 }
 .link-item img {
   margin-right: 6px;
@@ -104,8 +104,8 @@ section:last-child {
 ***********************************/
 
 .job {
-  padding-bottom: 24px;
-  margin-bottom: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -116,8 +116,8 @@ section:last-child {
 .job-title-container {
 display: flex;
 justify-content: space-between;
-margin-bottom: 20px;
-font-size: 18px;
+margin-bottom: 5px;
+font-size: 15px;
 }
 
 .job-company {
