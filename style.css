@@ -10,9 +10,12 @@ body {
 }
 
 img {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 180px;
+  max-height: 180px;
 
+}
+.profile-img {
+  /* background-color: green; */
 }
 
 .icon {
@@ -46,8 +49,8 @@ section {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
-  padding: 24px 0px;
-  border-bottom: 1px solid lightgrey;
+  padding: 10px 0px;
+  border-bottom: 2px solid lightgrey;
 }
 
 section:last-child {
@@ -63,19 +66,22 @@ section:last-child {
 /***********************************
 * Main Info
 ***********************************/
-
+.my-info a {
+ color: #697DF3;
+}
 .avatar {
   border-radius: 100px;
-  width: 130px;
+  width: 188px;
 }
 
 .my-name {
   font-size: 48px;
   line-height: 1;
+  background-color: lightgrey;
 }
 
 .my-title {
-  color:#236FB2;
+  color: #697DF3;
   font-size: 24px;
   font-weight: 300;
 }
@@ -104,13 +110,18 @@ section:last-child {
 ***********************************/
 
 .job {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   border-bottom: 1px solid lightgrey;
 }
 
 .job:last-child {
   border-bottom: none;
+}
+.timeframe {
+ text-align:right;
+  width:250px;
+
 }
 
 .job-title-container {
@@ -123,6 +134,20 @@ font-size: 15px;
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+  max-width: 500px;
+  margin-right: 0;
+}
+
+.projects {
+  float: left;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 5px;
+
+}
+.project-items ul{
+
+
 }
 
 /***********************************
@@ -148,7 +173,7 @@ font-size: 15px;
 
 .interests-container img {
   height: 35px;
-  opacity: ;
+  opacity: .6;
 }
 
 .reference {
@@ -156,4 +181,11 @@ font-size: 15px;
 }
 .reference-details {
   margin-bottom: 20px;
+}
+.link-item a {
+  color: #697DF3;
+}
+p {
+  font-size: 15px;
+  color: gray;
 }
