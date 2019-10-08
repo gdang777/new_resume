@@ -10,8 +10,8 @@ body {
 }
 
 img {
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 155px;
+  max-height: 155px;
 
 }
 .profile-img {
@@ -71,7 +71,7 @@ section:last-child {
 }
 .avatar {
   border-radius: 100px;
-  width: 188px;
+  width: 155px;
 }
 
 .my-name {
@@ -188,4 +188,8 @@ font-size: 15px;
 p {
   font-size: 15px;
   color: black;
+}
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
 }
